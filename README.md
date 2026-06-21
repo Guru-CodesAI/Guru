@@ -1,230 +1,298 @@
-<![CDATA[<div align="center">
-
 # ⚡ Gurunathan V — AI Engineer Portfolio
 
-**A cinematic, futuristic developer portfolio built with bleeding-edge web technologies.**
+<div align="center">
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-000?logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-FF0055?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+### A Cinematic AI Engineer Portfolio Built for the Future
+
+Crafted with cutting-edge web technologies, immersive storytelling, futuristic design, and premium motion experiences.
+
+[![Next.js](https://img.shields.io/badge/Next.js-15-000?logo=next.js\&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react\&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript\&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-06B6D4?logo=tailwindcss\&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-FF0055?logo=framer\&logoColor=white)](https://www.framer.com/motion/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[**🔴 Live Demo**](https://guru-codesai.vercel.app) · [**💻 Source Code**](https://github.com/Guru-CodesAI/Guru) · [**🐛 Report Bug**](https://github.com/Guru-CodesAI/Guru/issues)
+### 🌐 Links
+
+**Live Portfolio:** https://guru-codesai.vercel.app
+
+**GitHub Repository:** https://github.com/Guru-CodesAI/Guru
+
+**LinkedIn:** https://www.linkedin.com/in/gurunathan-v-521295367
 
 </div>
 
 ---
 
-## 🎯 Overview
+## 🚀 About The Project
 
-A world-class, award-winning, visually unforgettable portfolio website for **Gurunathan V** — an AI Engineer & Product Builder. This cinematic digital experience features premium motion design, a futuristic dark-mode HUD aesthetic, interactive canvas rendering, and full scroll-storytelling with buttery-smooth navigation.
+This portfolio is more than a personal website.
 
-> **Built to impress.** Every pixel is intentional, every interaction is deliberate, and every section tells a story.
+It is a cinematic digital experience designed to showcase my journey as an Artificial Intelligence & Data Science undergraduate, product builder, hackathon competitor, and future entrepreneur.
+
+Inspired by modern interactive experiences, immersive storytelling, futuristic interfaces, and premium motion design, the website blends engineering and creativity into a single platform.
+
+The goal is simple:
+
+> Build a portfolio that people remember.
 
 ---
 
-## ✨ Features
+## 🎯 Highlights
 
-| Feature | Description |
-|---|---|
-| 🎬 **Cinematic Loading Screen** | Terminal-style boot sequence with progress bar and system diagnostics |
-| 🖼️ **Interactive Canvas Hero** | Full-screen futuristic soldier backdrop with breathing effects, cursor-reactive particles, and dynamic glow |
-| 🧊 **Glassmorphic Profile Card** | HUD-style identity card with face scanline animation and live status indicators |
-| 🎨 **Cyber Grid System** | Custom animated grid backgrounds with ambient glow orbs |
-| 🧠 **Role Typewriter** | Auto-cycling animated roles (AI Engineer → Product Builder → Hackathon Competitor → ...) |
-| 📊 **Achievement Stats Grid** | Animated stat counters with hover-glow effects |
-| 🏗️ **Featured Projects Showcase** | Glass-panel project cards with tech stacks, live demo links, and achievement badges |
-| ⚡ **Skills Matrix** | Categorized skill bento grid with SVG icons and fallback rendering |
-| 🏆 **Achievements & Certifications** | Searchable, categorized credential cards with interactive lightbox |
-| 📜 **Journey Timeline** | Chronological hackathon and career milestone tracker |
-| 📬 **Contact Form** | Working contact form with copy-to-clipboard, confetti celebration, and JSON persistence |
-| 🎵 **Ambient Audio Player** | Global audio controller for immersive background music |
-| 🔄 **Smooth Scrolling** | Lenis-powered buttery smooth scroll with anchor navigation |
+* ⚡ Cinematic Loading Experience
+* 🤖 Futuristic Interactive Hero Section
+* 🎨 Premium Glassmorphism Design System
+* 🧠 AI-Focused Personal Branding
+* 🏆 National Hackathon Achievements Showcase
+* 📜 Interactive Journey Timeline
+* 📊 Animated Statistics & Metrics
+* 🛠️ Technology Arsenal Showcase
+* 🖼️ Advanced Motion Design & Scroll Storytelling
+* 📬 Contact & Collaboration Hub
+* 🌙 Fully Responsive Dark Experience
+* 🚀 Optimized for Performance & SEO
+
+---
+
+## 🏗️ Featured Projects
+
+### 🧠 SkillForge
+
+AI-powered teammate recommendation and compatibility prediction platform built for hackathon participants.
+
+**Highlights**
+
+* Skill Matching Engine
+* Compatibility Prediction
+* Team Optimization
+* AI Recommendations
+
+**Achievement**
+
+Top 15 Finalist — InnovateX All India AI Hackathon
+
+Ranked **13th out of 317 Teams**
+
+**Tech Stack**
+
+Python • Flask • React • Scikit-learn • SQLite
+
+---
+
+### 📈 GitHub Portfolio Analyzer
+
+An intelligent system that analyzes repositories, evaluates developer profiles, and generates AI-powered insights.
+
+**Tech Stack**
+
+Next.js • React • Gemini API • GitHub API • Tailwind CSS
+
+---
+
+### 🏎️ APEX F1
+
+A cinematic Formula 1 digital experience featuring immersive storytelling, modern UI design, and high-performance animations.
+
+**Tech Stack**
+
+Next.js • Framer Motion • Tailwind CSS • Three.js
+
+---
+
+## 🏆 Achievements
+
+### InnovateX All India AI Hackathon
+
+* Top 15 National Finalist
+* Ranked 13th out of 317 Teams
+
+### AI WebForge
+
+* 3rd Place
+
+### Code Relay 2K26
+
+* 2nd Prize
+
+### Hack4Us
+
+* 6th Place Nationwide
+
+### Additional Highlights
+
+* 20+ Certifications
+* 15+ Technical Events
+* Multiple National-Level Competitions
+* Active Open Source Contributor
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+### Frontend
 
-| Category | Technologies |
-|---|---|
-| **Framework** | Next.js 15, React 19 |
-| **Language** | TypeScript 5.7 |
-| **Styling** | Tailwind CSS 3.4, Custom CSS Variables |
-| **Animation** | Framer Motion 11, GSAP, Canvas API |
-| **Smooth Scroll** | Lenis |
-| **Icons** | Lucide React |
-| **Typography** | Google Fonts (Inter, Orbitron, Syne) |
-| **Effects** | Canvas Confetti |
-| **Database** | JSON File Storage, Vercel Postgres |
-| **Deployment** | Vercel |
+* Next.js 15
+* React 19
+* TypeScript
+* Tailwind CSS
+* Shadcn UI
 
-</div>
+### Motion & Interactions
 
----
+* Framer Motion
+* GSAP
+* Lenis Smooth Scroll
+* Canvas API
+* Custom Animation Systems
 
-## 🚀 Getting Started
+### Backend & Services
 
-### Prerequisites
+* Next.js API Routes
+* Vercel Serverless Functions
+* JSON Storage
+* Vercel Postgres
 
-- **Node.js** ≥ 18.x
-- **npm** ≥ 9.x (or yarn / pnpm)
+### Developer Tools
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Guru-CodesAI/Guru.git
-
-# Navigate into the project
-cd Guru
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Production Build
-
-```bash
-# Build optimized production bundle
-npm run build
-
-# Start production server
-npm start
-```
+* Git
+* GitHub
+* VS Code
+* Vercel
+* Figma
 
 ---
 
 ## 📂 Project Structure
 
-```
-Guru/
+```bash
+src/
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── data/
 ├── public/
-│   ├── assets/                   # SVG skill icons (Python, Java, Git, etc.)
-│   ├── futuristic_soldier.png    # Hero section background artwork
-│   ├── futuristic_gurunathan.png # Profile composite image
-│   └── bg-audio.mpeg             # Ambient background music
-├── src/
-│   ├── app/
-│   │   ├── api/                  # API routes (contact, image copy, etc.)
-│   │   ├── globals.css           # Core theme — cyber grid, ambient glows, glass panels
-│   │   ├── layout.tsx            # Root layout — Google Fonts, SEO metadata
-│   │   └── page.tsx              # Home page — Lenis scroll init & section composition
-│   ├── components/
-│   │   ├── LoadingScreen.tsx     # Terminal boot logs, percentage progress bar
-│   │   ├── Navbar.tsx            # Glassmorphic sticky navbar with neural logo
-│   │   ├── Hero.tsx              # Cinematic hero — role typewriter, stats grid, CTAs
-│   │   ├── CanvasSoldier.tsx     # Canvas-rendered soldier with particles & cursor lights
-│   │   ├── GlassProfileCard.tsx  # HUD-style identity card with scanline animation
-│   │   ├── About.tsx             # Brand traits (Growth, Vision, Grit, Victory) & education
-│   │   ├── Projects.tsx          # Featured project cards — SkillForge, APEX F1, etc.
-│   │   ├── Skills.tsx            # Categorized skills bento grid with SVG icons
-│   │   ├── Achievements.tsx      # Competition awards & hackathon metrics
-│   │   ├── Certifications.tsx    # Searchable certification cards with category filters
-│   │   ├── Journey.tsx           # Chronological timeline of milestones
-│   │   ├── Contact.tsx           # Contact form with confetti & clipboard
-│   │   ├── AudioPlayer.tsx       # Global ambient music controller
-│   │   └── Footer.tsx            # Location telemetry & diagnostics footer
-│   └── hooks/
-│       └── useMousePosition.ts   # Custom hook for cursor-reactive effects
-├── tailwind.config.ts            # Extended theme — custom colors, glows, animations
-├── next.config.ts                # Next.js configuration
-├── tsconfig.json                 # Strict TypeScript config with path aliases
-└── package.json                  # Dependencies & scripts
+└── styles/
 ```
 
----
-
-## 🎨 Design System
-
-| Token | Value | Usage |
-|---|---|---|
-| **Background** | `#04060F` | Deep space dark base |
-| **Primary** | `#00D9FF` | Electric Cyan — CTAs, highlights, glows |
-| **Secondary** | `#6D5DF6` | Neon Violet — accents, gradients |
-| **Accent** | `#FFC857` | Metallic Gold — achievements, badges |
-| **Muted** | `#94A3B8` | Subdued text, descriptions |
-
-### Typography
-
-| Font | Variable | Purpose |
-|---|---|---|
-| **Inter** | `--font-sans` | Body text, paragraphs |
-| **Orbitron** | `--font-display` | Headings, hero text, display titles |
-| **Syne** | `--font-accent` | Subheadings, role labels |
-
-### Visual Effects
-
-- **Glassmorphism** — Frosted glass panels with `backdrop-blur` and subtle borders
-- **Ambient Glows** — Animated floating orbs with `blur(100px)` creating depth
-- **Cyber Grid** — Procedural grid lines with dot intersections
-- **HUD Elements** — Corner brackets, scanlines, and system-status indicators
-- **Cursor Reactivity** — Mouse-driven particle systems and lighting on canvas
+The architecture follows a component-driven structure focused on scalability, maintainability, and performance.
 
 ---
 
-## 🌐 Deployment
+## 🎨 Design Philosophy
 
-This project is optimized for deployment on **Vercel**:
+The portfolio is built around four core principles:
+
+### Growth
+
+Continuous learning and skill development.
+
+### Vision
+
+Creating impactful technology with long-term value.
+
+### Grit
+
+Persistence through challenges and competitions.
+
+### Victory
+
+Turning ideas into real achievements.
+
+Together they form the personal brand:
+
+# GV
+
+---
+
+## 🚀 Local Development
+
+Clone the repository:
 
 ```bash
-# Install Vercel CLI (if not installed)
-npm i -g vercel
-
-# Deploy
-vercel
+git clone https://github.com/Guru-CodesAI/Guru.git
 ```
 
-Or connect the [GitHub repository](https://github.com/Guru-CodesAI/Guru) directly to Vercel for automatic deployments on push.
+Navigate into the project:
+
+```bash
+cd Guru
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Start production server:
+
+```bash
+npm start
+```
 
 ---
 
-## 📊 Featured Projects
+## 📚 Education
 
-### 🧠 SkillForge
-AI-powered teammate recommendation platform for hackathons. Matches skills, predicts compatibility, and optimizes team rosters using ML.
-- **Achievement:** Top 15 National Finalist (13th / 317 Teams)
-- **Stack:** Python, Flask, React, Scikit-learn, SQLite
+**Mahendra Engineering College**
 
-### 📈 GitHub Portfolio Analyzer
-Intelligent analyzer that scans repos, parses commit patterns, and generates AI-driven developer insights.
-- **Stack:** Next.js, React, Gemini API, GitHub API, Tailwind CSS
+B.Tech Artificial Intelligence & Data Science
 
-### 🏎️ APEX F1
-Premium Formula 1 digital experience with immersive storytelling, telemetry graphics, and driver analytics.
-- **Stack:** Next.js, Framer Motion, Tailwind CSS, Three.js
+2024 – 2028
+
+CGPA: 8.17
 
 ---
 
-## 👤 About the Developer
+## 🌟 Connect With Me
 
-**Gurunathan V** — B.Tech Artificial Intelligence & Data Science undergraduate at Mahendra Engineering College, Tamil Nadu, India.
+### Gurunathan V
 
-- 🏅 National hackathon finalist and multiple award winner
-- 🤖 Specializing in AI/ML, full-stack web development, and product engineering
-- 🔗 [GitHub](https://github.com/Guru-CodesAI) · [LinkedIn](https://www.linkedin.com/in/gurunathan-v)
+AI Engineer • Product Builder • Hackathon Competitor
+
+📧 Email: [vengaigurunathan2@gmail.com](mailto:vengaigurunathan2@gmail.com)
+
+💼 LinkedIn:
+https://www.linkedin.com/in/gurunathan-v-521295367
+
+💻 GitHub:
+https://github.com/Guru-CodesAI
+
+📸 Instagram:
+https://www.instagram.com/shadow_guru07
+
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
+
+Feel free to fork, learn, and build upon the ideas while providing appropriate attribution.
 
 ---
 
 <div align="center">
 
-**Built with 💙 by [Gurunathan V](https://github.com/Guru-CodesAI)**
+### Built with passion, curiosity, and countless late-night coding sessions.
 
-⭐ Star this repo if you found it impressive!
+**© 2026 Gurunathan V**
+
+⭐ If you like this project, consider starring the repository.
 
 </div>
-]]>
