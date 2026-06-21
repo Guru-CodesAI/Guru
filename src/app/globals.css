@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #04060F;
+  --foreground: #ffffff;
+  --primary: #00D9FF;
+  --secondary: #6D5DF6;
+  --accent: #FFC857;
+  --muted: #94A3B8;
+  --surface: rgba(255, 255, 255, 0.04);
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #04060F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Custom Utilities for Premium Look */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.glass-panel:hover {
+  border-color: rgba(0, 217, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 217, 255, 0.05);
+}
+
+.neon-border-glow-cyan:hover {
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+  border-color: var(--primary);
+}
+
+.neon-border-glow-purple:hover {
+  box-shadow: 0 0 15px rgba(109, 93, 246, 0.3);
+  border-color: var(--secondary);
+}
+
+.neon-border-glow-gold:hover {
+  box-shadow: 0 0 15px rgba(255, 200, 87, 0.3);
+  border-color: var(--accent);
+}
+
+/* Text Selection */
+::selection {
+  background: var(--primary);
+  color: #04060F;
+}
+
+/* Background Cyber Grid */
+.cyber-grid {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: center center;
+}
+
+.cyber-grid-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 25px 25px;
+}
+
+/* Radial Glows */
+.ambient-glow-blue {
+  background: radial-gradient(circle, rgba(0, 217, 255, 0.08) 0%, transparent 70%);
+}
+
+.ambient-glow-purple {
+  background: radial-gradient(circle, rgba(109, 93, 246, 0.08) 0%, transparent 70%);
+}
+
+.ambient-glow-gold {
+  background: radial-gradient(circle, rgba(255, 200, 87, 0.05) 0%, transparent 70%);
+}
+
+/* Text Mask Reveal Effect */
+.text-mask {
+  overflow: hidden;
+  position: relative;
+}
+
+.text-mask span {
+  display: block;
+  transform: translateY(100%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Magnetic Buttons transitions */
+.magnetic-btn {
+  transition: transform 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Clip paths for futuristic framing */
+.clip-corner {
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px));
+}
+
+.clip-corner-sm {
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+}
+
+.clip-corner-header {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0 calc(100% - 10px));
+}

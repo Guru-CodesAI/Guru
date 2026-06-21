@@ -1,0 +1,4 @@
+{
+  "/api/copy-audio/route": "app/api/copy-audio/route.js",
+  "/page": "app/page.js"
+}
