@@ -1,4 +1,4 @@
-import { sql } from '@vercel/postgres';
+import { createClient } from '@supabase/supabase-js';
 import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
@@ -10,31 +10,40 @@ export async function POST(req: Request) {
       return NextResponse.json({ success: false, error: 'Missing fields' }, { status: 400 });
     }
 
-    // 1. Auto-create the contacts table if it doesn't exist yet
-    await sql`
-      CREATE TABLE IF NOT EXISTS contacts (
-        id SERIAL PRIMARY KEY,
-        name VARCHAR(255) NOT NULL,
-        email VARCHAR(255) NOT NULL,
-        message TEXT NOT NULL,
-        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
-      );
-    `;
+    // Initialize Supabase client inside the route to ensure env vars are loaded
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
-    // 2. Securely insert the incoming contact payload into the database
-    await sql`
-      INSERT INTO contacts (name, email, message)
-      VALUES (${name}, ${email}, ${message})
-    `;
+    if (!supabaseUrl || !supabaseAnonKey) {
+      console.error("Supabase environment variables missing.");
+      return NextResponse.json({ success: false, error: 'Server configuration error' }, { status: 500 });
+    }
+
+    const supabase = createClient(supabaseUrl, supabaseAnonKey);
+
+    // Securely insert the incoming contact payload into the Supabase database
+    const { error } = await supabase
+      .from('contacts')
+      .insert([
+        { name, email, message }
+      ]);
+
+    if (error) {
+      console.error("Supabase Insertion Error:", error);
+      return NextResponse.json(
+        { success: false, error: "Database Connection Failed" }, 
+        { status: 500 }
+      );
+    }
 
     return NextResponse.json(
-      { success: true, message: "Transmission stored securely in Vercel Postgres." }, 
+      { success: true, message: "Transmission stored securely in Supabase." }, 
       { status: 200 }
     );
   } catch (error: any) {
-    console.error("Vercel Postgres Error:", error);
+    console.error("Server Error:", error);
     return NextResponse.json(
-      { success: false, error: "Database Connection Failed" }, 
+      { success: false, error: "Internal Server Error" }, 
       { status: 500 }
     );
   }
