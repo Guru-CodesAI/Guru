@@ -15,7 +15,7 @@ Crafted with cutting-edge web technologies, immersive storytelling, futuristic d
 
 ### 🌐 Links
 
-**Live Portfolio:** https://guru-codesai.vercel.app
+**Live Portfolio:** (https://guru-v.vercel.app/)
 
 **GitHub Repository:** https://github.com/Guru-CodesAI/Guru
 
