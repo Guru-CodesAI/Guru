@@ -10,28 +10,29 @@ export async function POST(req: Request) {
       return NextResponse.json({ success: false, error: 'Missing fields' }, { status: 400 });
     }
 
-    // Initialize Supabase client inside the route to ensure env vars are loaded
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
     const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
+    // Check if variables are missing and return a clear error
     if (!supabaseUrl || !supabaseAnonKey) {
-      console.error("Supabase environment variables missing.");
-      return NextResponse.json({ success: false, error: 'Server configuration error' }, { status: 500 });
+      return NextResponse.json({ 
+        success: false, 
+        error: `Server configuration error: NEXT_PUBLIC_SUPABASE_URL is ${supabaseUrl ? 'set' : 'missing'}, NEXT_PUBLIC_SUPABASE_ANON_KEY is ${supabaseAnonKey ? 'set' : 'missing'}` 
+      }, { status: 500 });
     }
 
     const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-    // Securely insert the incoming contact payload into the Supabase database
-    const { error } = await supabase
+    // Insert into Supabase table
+    const { data, error } = await supabase
       .from('contacts')
       .insert([
         { name, email, message }
       ]);
 
     if (error) {
-      console.error("Supabase Insertion Error:", error);
       return NextResponse.json(
-        { success: false, error: "Database Connection Failed" }, 
+        { success: false, error: `Supabase Error: ${error.message} (${error.code})` }, 
         { status: 500 }
       );
     }
@@ -41,9 +42,8 @@ export async function POST(req: Request) {
       { status: 200 }
     );
   } catch (error: any) {
-    console.error("Server Error:", error);
     return NextResponse.json(
-      { success: false, error: "Internal Server Error" }, 
+      { success: false, error: `Internal Server Catch: ${error.message || error}` }, 
       { status: 500 }
     );
   }
